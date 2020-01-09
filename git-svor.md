@@ -34,3 +34,6 @@
 5. Hverjir eru helstu kostir við að nota GIT?
 > Helstu kostir við að nota git eru branches og samvinna, maður getur hafið marga að vinna á sömu greininni í einu og hafið margar greinar og þú getur farið aftur í tíman ef þú geir villu og sótt eldri útgáfu.
 
+6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
+> Eins oft og hægt er.
+
