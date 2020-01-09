@@ -31,3 +31,6 @@
 4. Hvað er útgáfustýring (Version Control)?
 > Version control forrit er forrit sem heldur í marga fasa af skrá, og getur haldið mörgum öðruvísi tegundum af sömu skránni.
 
+5. Hverjir eru helstu kostir við að nota GIT?
+> Helstu kostir við að nota git eru branches og samvinna, maður getur hafið marga að vinna á sömu greininni í einu og hafið margar greinar og þú getur farið aftur í tíman ef þú geir villu og sótt eldri útgáfu.
+
