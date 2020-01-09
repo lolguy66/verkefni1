@@ -1,0 +1,28 @@
+﻿.border_solid_green {
+    border: solid green 2px;
+}
+html {
+    margin: 0.5cm; 
+}
+.red {
+    color: red;
+}
+.margin {
+    margin: 1cm;
+}
+.border_thicc_red {
+    border: solid red 5px;
+}
+.padding {
+    padding: 0.2cm;
+}
+.border_dashing_blue {
+    border: dashed blue 5px;
+}
+.blue {
+    color: blue;
+}
+.rart {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

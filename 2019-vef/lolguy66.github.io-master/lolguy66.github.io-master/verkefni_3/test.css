@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Big+Shoulders+Text|Grenze|Notable|Permanent+Marker|Righteous|Roboto+Mono|Saira+Stencil+One|Satisfy&display=swap');
+body{
+    display: grid;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+body{
+    font-family: 'Grenze', serif;
+}
+.padding {
+    padding: 10px;
+}
+.box {
+    padding: 0.2cm;
+    border: 1px violet solid;
+    margin: 2px;
+    text-align: center;
+}
+.header {
+    grid-area: haus;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.navbar {
+    grid-area: valmynd;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+}
+.article {
+    grid-area: vinstri;
+    border: 1px solid black;
+}
+.main {
+    grid-area: midja;
+    border: 1px solid black;
+}
+.aside {
+    grid-area: haegri;
+    border: 1px solid black;
+}
+.footer {
+    grid-area: fotur;
+    border: 1px solid black;
+}

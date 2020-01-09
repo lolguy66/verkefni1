@@ -1,0 +1,120 @@
+*{
+    color: powderblue;
+}
+body{
+    margin: 0px;
+    display: grid;
+    grid-template-areas: 
+    "haus"
+    "vinstri"
+    "midja"
+    "haegri"
+    "fotur"
+    "valmynd";
+}
+h1{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+.mynd {
+    width: 92%;
+    height: auto;
+}
+.myndir {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    margin: 3px 0 3px 0;
+}
+.header {
+    grid-area: haus;
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+.navbar {
+    grid-area: valmynd;
+    background: darkblue;  
+    display: grid;
+    text-align: center;
+    padding: 20px;
+}
+.border {
+    border: 2px solid black; 
+    padding: 3px;
+}
+.article {
+    grid-area: vinstri;
+    background: black;
+}
+.main {
+    grid-area: midja;
+    background: darkblue;
+}
+.aside {
+    grid-area: haegri;
+    background: black;
+}
+.footer {
+    grid-area: fotur;
+    background: black;
+    padding: 10px;
+}
+@media screen and (min-width: 600px){
+    body{
+    display: grid;
+    grid-template-areas: 
+    "valmynd valmynd"
+    "haus haus"
+    "haegri midja"
+    "vinstri midja"
+    "fotur fotur";
+}
+    .myndir {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        margin: 3px 0 3px 0;
+}
+    .mynd {
+        width: 46%;
+        height: auto;
+        margin-left: 2%;
+        margin-top: 2%;
+}
+    .navbar {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px){
+.mynd {    
+    margin: 4%;
+    margin-bottom: 0%;
+}
+.navbar {grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+}
+@media screen and (min-width: 960px){
+    body{
+    display: grid;
+    grid-template-areas: 
+    "valmynd valmynd valmynd valmynd valmynd"
+    "haus haus haus haus haus"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+    .myndir {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin: 3px 0 3px 0;
+}
+    .mynd {
+        width: 23%;
+        height: auto;
+        margin-left: 1%;
+}
+}

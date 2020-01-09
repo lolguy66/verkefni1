@@ -1,0 +1,43 @@
+﻿*{
+    box-sizing: border-box;
+}
+.doubles{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+.single{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+	justify-content: center;
+}
+.bgulur{   
+    background-color:yellowgreen;
+}
+
+
+
+/*{
+    box-sizing: border-box;
+}
+.floatleft {
+    float: left;
+    width: 50%;
+}
+.floatbottom {
+    float: left;
+    width: 100%;
+}*/
+.borderpad {
+    border: 2px dashed darkblue;
+    padding: 5px;
+}
+
+.ooga {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    float: left;
+}

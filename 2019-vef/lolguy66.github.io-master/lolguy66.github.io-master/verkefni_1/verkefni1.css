@@ -1,0 +1,33 @@
+.bpad {
+    padding-top: 30px
+}
+
+html {
+    margin: 120px;
+    border: 2px solid red;
+    font-family: 	'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    width: 800px;
+}
+.radur {
+    color: red;
+}
+.granngolor {    
+    color: greenyellow
+}
+.fjoloblor {
+    color: purple;
+}
+.center {
+    text-align: center;
+}
+a:visited {
+    color:hotpink;
+}
+a:hover {
+    color:white;
+}
+a:active {
+    color:goldenrod;
+}

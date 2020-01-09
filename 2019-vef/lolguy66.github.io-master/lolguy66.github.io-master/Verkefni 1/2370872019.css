@@ -1,0 +1,27 @@
+h1 {
+    color: rebeccapurple;
+}
+
+
+.haus {
+    color: salmon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+.rauður {
+    color: red
+}
+body {border: 1px solid red;}
+html {border: 1px solid red;}
+html {padding: 200px;}
+
+a:visited {
+    color:paleturquoise;
+}
+a:hover {
+    color:white;
+}
+a:active {
+    color:goldenrod;
+}

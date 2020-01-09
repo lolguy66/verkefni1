@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Big+Shoulders+Text|Grenze|Notable|Permanent+Marker|Righteous|Roboto+Mono|Saira+Stencil+One|Satisfy&display=swap');
+*{
+    font-family: 'Roboto Mono', serif;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "midja midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+.padding {
+    padding: 10px;
+}
+.box {
+    padding: 0.2cm;
+    border: 1px darkorchid solid;
+    margin: 2px;
+    text-align: center;
+}
+.header {
+    grid-area: haus;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: darkslategray;
+}
+.navbar {
+    grid-area: valmynd;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    background-color: darkslategray;
+}
+.article {
+    display: none;
+    grid-area: vinstri;
+    border: 1px solid black;
+    background-color: darkslategray;
+}
+.main {
+    grid-area: midja;
+    border: 1px solid black;
+    background-color: darkslategray;
+}
+.aside {
+    grid-area: haegri;
+    border: 1px solid black;
+    background-color: darkslategray;
+}
+.footer {
+    grid-area: fotur;
+    border: 1px solid black;
+    background-color: darkslategray;
+}

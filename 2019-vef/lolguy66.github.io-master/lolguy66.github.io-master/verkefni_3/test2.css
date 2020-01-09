@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Big+Shoulders+Text|Grenze|Notable|Permanent+Marker|Righteous|Roboto+Mono|Saira+Stencil+One|Satisfy&display=swap');
+*{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Righteous', serif;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "midja midja midja vinstri haegri"
+    "fotur fotur fotur fotur fotur";
+}
+.padding {
+    padding: 10px;
+}
+.box {
+    padding: 0.2cm;
+    border: 1px solid gray;
+    margin: 2px;
+    text-align: center;
+}
+.header {
+    grid-area: haus;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+}
+.navbar {
+    grid-area: valmynd;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+}
+.article {
+    grid-area: vinstri;
+    border: 1px solid gray;
+}
+.main {
+    grid-area: midja;
+    border: 1px solid gray;
+}
+.aside {
+    grid-area: haegri;
+    border: 1px solid gray;
+}
+.footer {
+    grid-area: fotur;
+    border: 1px solid gray;
+}

@@ -1,0 +1,23 @@
+﻿.listi_block{
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed green;
+}
+.listi_inline {
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    color: red;
+    border: 3px dashed blue;
+}
+.listi_inline_block {
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;
+} 
+
+ul {
+    margin-bottom: 3cm;
+}
