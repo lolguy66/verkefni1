@@ -18,4 +18,14 @@
 - git diff
 > Git diff sýnir muninn á hlutum, það er hægt að bera saman næstum því allt.
 
+3. Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
+- git log
+> Git log sýnir allar breytingar.
+- git checkout
+> Git checkout leyfir þér að ferðast á milli greina.
+- git branch
+> Git branch leyfir þér að búa til grein, breyta þeim eyða þeim og allt svoleiðis.
+- hvernig þær virka saman
+> Git log, checkout og branch virka þannig saman að branch býr til hluti, breytir og eyðir checkout ferðast á milli hluta og log sýnir breytingar.
+
 
