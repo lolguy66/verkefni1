@@ -28,4 +28,6 @@
 - hvernig þær virka saman
 > Git log, checkout og branch virka þannig saman að branch býr til hluti, breytir og eyðir checkout ferðast á milli hluta og log sýnir breytingar.
 
+4. Hvað er útgáfustýring (Version Control)?
+> Version control forrit er forrit sem heldur í marga fasa af skrá, og getur haldið mörgum öðruvísi tegundum af sömu skránni.
 
